@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_89ed9e15906a4d2da61ac76934a87860 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_89ed9e15906a4d2da61ac76934a87860" ></div>
+        
+</body>
+<script>    
+    
+            var map_89ed9e15906a4d2da61ac76934a87860 = L.map(
+                "map_89ed9e15906a4d2da61ac76934a87860",
+                {
+                    center: [49.56067, 25.61824],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b730807fdb5f4cdc828c8a53d707ced1 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_89ed9e15906a4d2da61ac76934a87860);
+        
+    
+            var feature_group_b0deb6a579b24b8d834dd5ee46ff6910 = L.featureGroup(
+                {}
+            ).addTo(map_89ed9e15906a4d2da61ac76934a87860);
+        
+    
+            var marker_042ba1147c944d9bb57bafe32b73967e = L.marker(
+                [46.000631380998264, 24.67475058390204],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_0a5f5ec475a24407a8039d891b3016df = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgray", "prefix": "glyphicon"}
+            );
+            marker_042ba1147c944d9bb57bafe32b73967e.setIcon(icon_0a5f5ec475a24407a8039d891b3016df);
+        
+    
+        var popup_4141f610ab86410b871f784200eba784 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_005ea4f76e7846a8808b3468e2064f4f = $(`<div id="html_005ea4f76e7846a8808b3468e2064f4f" style="width: 100.0%; height: 100.0%;">"Ariane Ferry" (2004) {Fcheuse compagnie (#1.3)}</div>`)[0];
+            popup_4141f610ab86410b871f784200eba784.setContent(html_005ea4f76e7846a8808b3468e2064f4f);
+        
+
+        marker_042ba1147c944d9bb57bafe32b73967e.bindPopup(popup_4141f610ab86410b871f784200eba784)
+        ;
+
+        
+    
+    
+            var marker_4d352379c493437dab2bc97b1c0e5da7 = L.marker(
+                [46.000417918412886, 24.70476619745598],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_2308bc38243749e4ae57ff7f326c3191 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_4d352379c493437dab2bc97b1c0e5da7.setIcon(icon_2308bc38243749e4ae57ff7f326c3191);
+        
+    
+        var popup_7b8a16f952be4fd0a67c7a9fbfe2389c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7c18e86af984b3d8fe6b61ab4890fc0 = $(`<div id="html_b7c18e86af984b3d8fe6b61ab4890fc0" style="width: 100.0%; height: 100.0%;">"Ariane Ferry" (2004) {Jeunesse ternelle (#1.4)}</div>`)[0];
+            popup_7b8a16f952be4fd0a67c7a9fbfe2389c.setContent(html_b7c18e86af984b3d8fe6b61ab4890fc0);
+        
+
+        marker_4d352379c493437dab2bc97b1c0e5da7.bindPopup(popup_7b8a16f952be4fd0a67c7a9fbfe2389c)
+        ;
+
+        
+    
+    
+            var marker_c603778b9cf24bd5b98162972c6271c2 = L.marker(
+                [45.982961544022956, 24.695559651677783],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_6aa3d19c588b480db071000ad7e8bd5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_c603778b9cf24bd5b98162972c6271c2.setIcon(icon_6aa3d19c588b480db071000ad7e8bd5a);
+        
+    
+        var popup_f5956bea09db408384e78ff9c2312c3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_68bcaa5aee85491085540bea9d0192da = $(`<div id="html_68bcaa5aee85491085540bea9d0192da" style="width: 100.0%; height: 100.0%;">"Ariane Ferry" (2004) {Une passion impossible (#1.2)}</div>`)[0];
+            popup_f5956bea09db408384e78ff9c2312c3c.setContent(html_68bcaa5aee85491085540bea9d0192da);
+        
+
+        marker_c603778b9cf24bd5b98162972c6271c2.bindPopup(popup_f5956bea09db408384e78ff9c2312c3c)
+        ;
+
+        
+    
+    
+            var marker_3793e5c61d304c969043c4f9de8011fe = L.marker(
+                [55.749278698937026, 37.62951701174698],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_6e93e9c57cb74dcc8173433c7fcad917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "pink", "prefix": "glyphicon"}
+            );
+            marker_3793e5c61d304c969043c4f9de8011fe.setIcon(icon_6e93e9c57cb74dcc8173433c7fcad917);
+        
+    
+        var popup_7a5c6253189447e1961fba87eaab0034 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c276e0c0be3460c9cd294acb766a09a = $(`<div id="html_5c276e0c0be3460c9cd294acb766a09a" style="width: 100.0%; height: 100.0%;">"Balzakovskiy vozrast, ili Vse muzhiki svo..." (2004)</div>`)[0];
+            popup_7a5c6253189447e1961fba87eaab0034.setContent(html_5c276e0c0be3460c9cd294acb766a09a);
+        
+
+        marker_3793e5c61d304c969043c4f9de8011fe.bindPopup(popup_7a5c6253189447e1961fba87eaab0034)
+        ;
+
+        
+    
+    
+            var marker_7d3611a32fb14737b9f58bab52f73c9c = L.marker(
+                [55.671953321005496, 12.58219927351886],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_f2ca3ad1bb7142708ac25c4b6298c4f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_7d3611a32fb14737b9f58bab52f73c9c.setIcon(icon_f2ca3ad1bb7142708ac25c4b6298c4f6);
+        
+    
+        var popup_b6fb8b59a67544baa935ce08fa8a3b99 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8ffae46a2414415a273a7e4157761a8 = $(`<div id="html_a8ffae46a2414415a273a7e4157761a8" style="width: 100.0%; height: 100.0%;">"Bryllup i Danmark - nedtlling fra Tivoli" (2004)</div>`)[0];
+            popup_b6fb8b59a67544baa935ce08fa8a3b99.setContent(html_a8ffae46a2414415a273a7e4157761a8);
+        
+
+        marker_7d3611a32fb14737b9f58bab52f73c9c.bindPopup(popup_b6fb8b59a67544baa935ce08fa8a3b99)
+        ;
+
+        
+    
+    
+            var marker_d6e4b3addb904a77ba9838d844a9d11a = L.marker(
+                [55.687559379608935, 12.554019898236929],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_c90844f0b50b41fe9469a279849cf5cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_d6e4b3addb904a77ba9838d844a9d11a.setIcon(icon_c90844f0b50b41fe9469a279849cf5cf);
+        
+    
+        var popup_d9a84e28f5c146d4b5eb8311c76eec4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_590f881922e24566954dd9ea1f2d9fc1 = $(`<div id="html_590f881922e24566954dd9ea1f2d9fc1" style="width: 100.0%; height: 100.0%;">"Bryllup i Danmark - nedtlling fra Tivoli" (2004)</div>`)[0];
+            popup_d9a84e28f5c146d4b5eb8311c76eec4f.setContent(html_590f881922e24566954dd9ea1f2d9fc1);
+        
+
+        marker_d6e4b3addb904a77ba9838d844a9d11a.bindPopup(popup_d9a84e28f5c146d4b5eb8311c76eec4f)
+        ;
+
+        
+    
+    
+            var marker_c6826a720bb3470a86eee7e90ea0db62 = L.marker(
+                [55.669130403162455, 12.584257667102422],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_d6865a42165749a79a94ed1356a7e04b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "white", "prefix": "glyphicon"}
+            );
+            marker_c6826a720bb3470a86eee7e90ea0db62.setIcon(icon_d6865a42165749a79a94ed1356a7e04b);
+        
+    
+        var popup_d0f29ccb76e8435b98c7aca72b73a2c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02589f5834b54d94ad21b5ee5fed5854 = $(`<div id="html_02589f5834b54d94ad21b5ee5fed5854" style="width: 100.0%; height: 100.0%;">"Bryllup i Danmark - nedtlling fra Tivoli" (2004)</div>`)[0];
+            popup_d0f29ccb76e8435b98c7aca72b73a2c2.setContent(html_02589f5834b54d94ad21b5ee5fed5854);
+        
+
+        marker_c6826a720bb3470a86eee7e90ea0db62.bindPopup(popup_d0f29ccb76e8435b98c7aca72b73a2c2)
+        ;
+
+        
+    
+    
+            var marker_f091a00b42de47c293e5b074e7d914f7 = L.marker(
+                [37.96503176399797, 23.731610861341032],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_9aaa96b6e1294de2bfefae69b46e4cb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "gray", "prefix": "glyphicon"}
+            );
+            marker_f091a00b42de47c293e5b074e7d914f7.setIcon(icon_9aaa96b6e1294de2bfefae69b46e4cb4);
+        
+    
+        var popup_0d4e5598d14640e0b9eb9ca0bf50ddee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_913731b0c859431181afc4195b0b64a0 = $(`<div id="html_913731b0c859431181afc4195b0b64a0" style="width: 100.0%; height: 100.0%;">"Athens 2004: Games of the XXVIII Olympiad" (2004)</div>`)[0];
+            popup_0d4e5598d14640e0b9eb9ca0bf50ddee.setContent(html_913731b0c859431181afc4195b0b64a0);
+        
+
+        marker_f091a00b42de47c293e5b074e7d914f7.bindPopup(popup_0d4e5598d14640e0b9eb9ca0bf50ddee)
+        ;
+
+        
+    
+    
+            var marker_450765652dc14d1ba52baccdee2e8822 = L.marker(
+                [40.85446819644551, 14.244332984918938],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_176f46f429924891a9c887b15e4f3994 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_450765652dc14d1ba52baccdee2e8822.setIcon(icon_176f46f429924891a9c887b15e4f3994);
+        
+    
+        var popup_6ddfb6420449467b830c7fc5cec4b39e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a96c53b9980f4cd3830bac3c6cc1da38 = $(`<div id="html_a96c53b9980f4cd3830bac3c6cc1da38" style="width: 100.0%; height: 100.0%;">"Art in Progress" (2004) {Julian Schnabel in Naples}</div>`)[0];
+            popup_6ddfb6420449467b830c7fc5cec4b39e.setContent(html_a96c53b9980f4cd3830bac3c6cc1da38);
+        
+
+        marker_450765652dc14d1ba52baccdee2e8822.bindPopup(popup_6ddfb6420449467b830c7fc5cec4b39e)
+        ;
+
+        
+    
+    
+            var marker_d1e2ef89c59c4ca8b053a611e0efc95b = L.marker(
+                [56.5587724122437, 8.288128740701],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_da84d23d77764b1ab3ba0fa8709d8a10 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "lightgreen", "prefix": "glyphicon"}
+            );
+            marker_d1e2ef89c59c4ca8b053a611e0efc95b.setIcon(icon_da84d23d77764b1ab3ba0fa8709d8a10);
+        
+    
+        var popup_ee03e47f5efd4acaaf5496c1bca68389 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_beca330c8232459f817cb6e06f62cbc1 = $(`<div id="html_beca330c8232459f817cb6e06f62cbc1" style="width: 100.0%; height: 100.0%;">"Bryllup i Danmark - nedtlling fra Tivoli" (2004)</div>`)[0];
+            popup_ee03e47f5efd4acaaf5496c1bca68389.setContent(html_beca330c8232459f817cb6e06f62cbc1);
+        
+
+        marker_d1e2ef89c59c4ca8b053a611e0efc95b.bindPopup(popup_ee03e47f5efd4acaaf5496c1bca68389)
+        ;
+
+        
+    
+    
+            var marker_36e84e2d8d6b4a3fade95f067f191f41 = L.marker(
+                [50.75641993794568, 0.26178987759075245],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_63958835b0d2401998f0ae9ffa30913e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "cadetblue", "prefix": "glyphicon"}
+            );
+            marker_36e84e2d8d6b4a3fade95f067f191f41.setIcon(icon_63958835b0d2401998f0ae9ffa30913e);
+        
+    
+        var popup_db72a53cb601483fb4bfa4cd60aa2b87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d47aba578e734dde9c3c6748aec826f2 = $(`<div id="html_d47aba578e734dde9c3c6748aec826f2" style="width: 100.0%; height: 100.0%;">"Agatha Christie's Marple" (2004) {The Body in the Library (#1.1)}</div>`)[0];
+            popup_db72a53cb601483fb4bfa4cd60aa2b87.setContent(html_d47aba578e734dde9c3c6748aec826f2);
+        
+
+        marker_36e84e2d8d6b4a3fade95f067f191f41.bindPopup(popup_db72a53cb601483fb4bfa4cd60aa2b87)
+        ;
+
+        
+    
+    
+            var marker_95724dbe0a574dde8df49af801898c8f = L.marker(
+                [51.53201276936456, -0.04820618876965067],
+                {}
+            ).addTo(feature_group_b0deb6a579b24b8d834dd5ee46ff6910);
+        
+    
+            var icon_183a3649634d432785bd3e693c67ee74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "beige", "prefix": "glyphicon"}
+            );
+            marker_95724dbe0a574dde8df49af801898c8f.setIcon(icon_183a3649634d432785bd3e693c67ee74);
+        
+    
+        var popup_d214dd3c4c9f48d6b51ac9987d1b0592 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e02a985d977460d8d076b3ace69c566 = $(`<div id="html_0e02a985d977460d8d076b3ace69c566" style="width: 100.0%; height: 100.0%;">"Bloody Britain" (2004) {Jack the Ripper (#1.7)}</div>`)[0];
+            popup_d214dd3c4c9f48d6b51ac9987d1b0592.setContent(html_0e02a985d977460d8d076b3ace69c566);
+        
+
+        marker_95724dbe0a574dde8df49af801898c8f.bindPopup(popup_d214dd3c4c9f48d6b51ac9987d1b0592)
+        ;
+
+        
+    
+    
+            var feature_group_06977b5b8bbe4e26831de4eae9c5dfd8 = L.featureGroup(
+                {}
+            ).addTo(map_89ed9e15906a4d2da61ac76934a87860);
+        
+    
+            var poly_line_af1a31f2a83c46f09545107d288cf7a3 = L.polyline(
+                [[49.56067, 25.61824], [45.9852129, 24.6859225]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_cdbfce2448374136b0155923fb2f5341 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac956b2708b6423890c93350bf452285 = $(`<div id="html_ac956b2708b6423890c93350bf452285" style="width: 100.0%; height: 100.0%;">403.6260460361683 km</div>`)[0];
+            popup_cdbfce2448374136b0155923fb2f5341.setContent(html_ac956b2708b6423890c93350bf452285);
+        
+
+        poly_line_af1a31f2a83c46f09545107d288cf7a3.bindPopup(popup_cdbfce2448374136b0155923fb2f5341)
+        ;
+
+        
+    
+    
+            var poly_line_054ae44f6b2f48b19c826e3df702e2c9 = L.polyline(
+                [[49.56067, 25.61824], [55.7504461, 37.6174943]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_d6fc4b9b2687423d9f6e1ca79e8fb2a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a260fc90c2c64d27a38e8eadef4b73a9 = $(`<div id="html_a260fc90c2c64d27a38e8eadef4b73a9" style="width: 100.0%; height: 100.0%;">1062.2130548944638 km</div>`)[0];
+            popup_d6fc4b9b2687423d9f6e1ca79e8fb2a0.setContent(html_a260fc90c2c64d27a38e8eadef4b73a9);
+        
+
+        poly_line_054ae44f6b2f48b19c826e3df702e2c9.bindPopup(popup_d6fc4b9b2687423d9f6e1ca79e8fb2a0)
+        ;
+
+        
+    
+    
+            var poly_line_1474336a7ef5436ebb9f69a112ee8e0a = L.polyline(
+                [[49.56067, 25.61824], [55.6756505, 12.580040630531485]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_d2615150abed45069fa3ca2ab21ae22c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7331ddec94fd480aa87af61271eadf08 = $(`<div id="html_7331ddec94fd480aa87af61271eadf08" style="width: 100.0%; height: 100.0%;">1111.8187022275408 km</div>`)[0];
+            popup_d2615150abed45069fa3ca2ab21ae22c.setContent(html_7331ddec94fd480aa87af61271eadf08);
+        
+
+        poly_line_1474336a7ef5436ebb9f69a112ee8e0a.bindPopup(popup_d2615150abed45069fa3ca2ab21ae22c)
+        ;
+
+        
+    
+    
+            var poly_line_c93fd8a4c2104b87beb6519b7d7442f2 = L.polyline(
+                [[49.56067, 25.61824], [55.6733426, 12.569042195439536]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_f91436841bb54f71920dfc0ecff684d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cd235fb2f7849138d581533d1f1fb53 = $(`<div id="html_0cd235fb2f7849138d581533d1f1fb53" style="width: 100.0%; height: 100.0%;">1112.2666146359663 km</div>`)[0];
+            popup_f91436841bb54f71920dfc0ecff684d9.setContent(html_0cd235fb2f7849138d581533d1f1fb53);
+        
+
+        poly_line_c93fd8a4c2104b87beb6519b7d7442f2.bindPopup(popup_f91436841bb54f71920dfc0ecff684d9)
+        ;
+
+        
+    
+    
+            var poly_line_824a9cdc59c64a049c3a4da1f7276c5e = L.polyline(
+                [[49.56067, 25.61824], [55.6867243, 12.5700724]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_6e8623ee912e431d8e795a8e95cb26c6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f35b19b443dd4e4389862ef7007fe70b = $(`<div id="html_f35b19b443dd4e4389862ef7007fe70b" style="width: 100.0%; height: 100.0%;">1113.007575084153 km</div>`)[0];
+            popup_6e8623ee912e431d8e795a8e95cb26c6.setContent(html_f35b19b443dd4e4389862ef7007fe70b);
+        
+
+        poly_line_824a9cdc59c64a049c3a4da1f7276c5e.bindPopup(popup_6e8623ee912e431d8e795a8e95cb26c6)
+        ;
+
+        
+    
+    
+            var poly_line_01c5be03e254481397fcb8a70d5cd74b = L.polyline(
+                [[49.56067, 25.61824], [37.9839412, 23.7283052]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_4fdad2ab2b4d44138e2d6a9dd0ae59df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a152382056434c6abc4d6b95f5620352 = $(`<div id="html_a152382056434c6abc4d6b95f5620352" style="width: 100.0%; height: 100.0%;">1295.1210965359978 km</div>`)[0];
+            popup_4fdad2ab2b4d44138e2d6a9dd0ae59df.setContent(html_a152382056434c6abc4d6b95f5620352);
+        
+
+        poly_line_01c5be03e254481397fcb8a70d5cd74b.bindPopup(popup_4fdad2ab2b4d44138e2d6a9dd0ae59df)
+        ;
+
+        
+    
+    
+            var poly_line_854269b1d86040a2b2167aaf08962335 = L.polyline(
+                [[49.56067, 25.61824], [40.8358846, 14.2487679]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_cff1ac28fbfa400c98b8a0543d8e6106 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4619558dfb94a22b7f5c70e633d5306 = $(`<div id="html_e4619558dfb94a22b7f5c70e633d5306" style="width: 100.0%; height: 100.0%;">1315.5584909399254 km</div>`)[0];
+            popup_cff1ac28fbfa400c98b8a0543d8e6106.setContent(html_e4619558dfb94a22b7f5c70e633d5306);
+        
+
+        poly_line_854269b1d86040a2b2167aaf08962335.bindPopup(popup_cff1ac28fbfa400c98b8a0543d8e6106)
+        ;
+
+        
+    
+    
+            var poly_line_0c0513cae3c44924a5e2f195d89b3ded = L.polyline(
+                [[49.56067, 25.61824], [56.5486971, 8.3046456]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_60c7b4828ade43529ef278c9e99a2c4f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3b4ee3bb2ded4106a7b21e37a92b3776 = $(`<div id="html_3b4ee3bb2ded4106a7b21e37a92b3776" style="width: 100.0%; height: 100.0%;">1391.1922523156081 km</div>`)[0];
+            popup_60c7b4828ade43529ef278c9e99a2c4f.setContent(html_3b4ee3bb2ded4106a7b21e37a92b3776);
+        
+
+        poly_line_0c0513cae3c44924a5e2f195d89b3ded.bindPopup(popup_60c7b4828ade43529ef278c9e99a2c4f)
+        ;
+
+        
+    
+    
+            var poly_line_57a8c9bc6b1e4ecfb6b0d29abca1e284 = L.polyline(
+                [[49.56067, 25.61824], [50.7664372, 0.2781546]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_5d5a16851fc747dd822bc15fe6c5cc16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4dd5f9ad1d414fa1a00612a1779e22a4 = $(`<div id="html_4dd5f9ad1d414fa1a00612a1779e22a4" style="width: 100.0%; height: 100.0%;">1806.6545324786498 km</div>`)[0];
+            popup_5d5a16851fc747dd822bc15fe6c5cc16.setContent(html_4dd5f9ad1d414fa1a00612a1779e22a4);
+        
+
+        poly_line_57a8c9bc6b1e4ecfb6b0d29abca1e284.bindPopup(popup_5d5a16851fc747dd822bc15fe6c5cc16)
+        ;
+
+        
+    
+    
+            var poly_line_39696bb146974a2a93cfae60b899f412 = L.polyline(
+                [[49.56067, 25.61824], [51.5186227, -0.0620807]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_dff9fea6a1ad47a3b5cde315ada71a0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7b9908491d34d40ae871be5f153c02e = $(`<div id="html_b7b9908491d34d40ae871be5f153c02e" style="width: 100.0%; height: 100.0%;">1823.904300155671 km</div>`)[0];
+            popup_dff9fea6a1ad47a3b5cde315ada71a0b.setContent(html_b7b9908491d34d40ae871be5f153c02e);
+        
+
+        poly_line_39696bb146974a2a93cfae60b899f412.bindPopup(popup_dff9fea6a1ad47a3b5cde315ada71a0b)
+        ;
+
+        
+    
+    
+            var circle_marker_7237e8a62aa242b2a1d02dbfa5ccf0ca = L.circleMarker(
+                [49.56067, 25.61824],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_06977b5b8bbe4e26831de4eae9c5dfd8);
+        
+    
+        var popup_a9403b06f0414ef0a925f3e4fc17a0c2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e80a8fb72f24e8fabe980461e9a609e = $(`<div id="html_2e80a8fb72f24e8fabe980461e9a609e" style="width: 100.0%; height: 100.0%;">This is you!</div>`)[0];
+            popup_a9403b06f0414ef0a925f3e4fc17a0c2.setContent(html_2e80a8fb72f24e8fabe980461e9a609e);
+        
+
+        circle_marker_7237e8a62aa242b2a1d02dbfa5ccf0ca.bindPopup(popup_a9403b06f0414ef0a925f3e4fc17a0c2)
+        ;
+
+        
+    
+    
+            var layer_control_6662da6a49324ff6a2a0287d0bfe27ad = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_b730807fdb5f4cdc828c8a53d707ced1,
+                },
+                overlays :  {
+                    "Movies" : feature_group_b0deb6a579b24b8d834dd5ee46ff6910,
+                    "Distances" : feature_group_06977b5b8bbe4e26831de4eae9c5dfd8,
+                },
+            };
+            L.control.layers(
+                layer_control_6662da6a49324ff6a2a0287d0bfe27ad.base_layers,
+                layer_control_6662da6a49324ff6a2a0287d0bfe27ad.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_89ed9e15906a4d2da61ac76934a87860);
+        
+</script>
