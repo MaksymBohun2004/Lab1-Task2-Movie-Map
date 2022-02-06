@@ -1,6 +1,5 @@
 # Lab1-Task2-Movie-Map
 Lab1 Task2 Movie Map
-This program can be used to find the movies that were filmed in a specified year and shows the 10 that were filmed the closest to the user's location.
 Цей модуль генерує карту, на якій позначено 10 найближчих до користувача локацій зйомки фільмів для обраного року.
 Цю інформацію можна використовувати як в розважальних, так і в пізнавальних цілях.
 Приклад роботи:
