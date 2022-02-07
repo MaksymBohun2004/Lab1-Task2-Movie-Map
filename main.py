@@ -40,7 +40,10 @@ def readfile(file, year, number=70):
                 try:
                     location = locate(location)
                 except:
-                    continue
+                    try:
+                        location = locate(location.split(',')[-2] + location.split(',')[-1])
+                    except:
+                        continue
                 if location not in dct:
                     dct[location] = [name.replace('{#', '#')]
                 else:
