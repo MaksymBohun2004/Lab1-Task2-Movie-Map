@@ -14,5 +14,6 @@ Lab1 Task2 Movie Map
 Мапу збережено у файлі Movie_map.html
 <img width="359" alt="Знімок екрана 2022-02-06 о 15 56 54" src="https://user-images.githubusercontent.com/92430278/152684277-eb87cfc4-6428-4f18-87b2-123509cd5b00.png">
 
-<img width="1440" alt="Знімок екрана 2022-02-06 о 15 57 54" src="https://user-images.githubusercontent.com/92430278/152684332-ba417ec9-839d-4169-8e3d-3dbfc8a11e38.png">
+<img width="1440" alt="Знімок екрана 2022-02-07 о 13 38 44" src="https://user-images.githubusercontent.com/92430278/152781427-bba00ded-6a69-4e99-a41d-ed757f6d5197.png">
+
 Так виглядає згенерована мапа. При натисканні на відрізки, що з'єднують початкову мітку із місцями зйомки фільмів, бачимо відстань між цими двома об'єктами. Існує можливість приховати шар міток чи відстаней.
